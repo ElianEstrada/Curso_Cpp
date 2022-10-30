@@ -69,4 +69,16 @@ int main() {
         y mostrar si ese número es par o impar.
    */
 
+  int numero;
+
+  cout << "Ingrese un número: ";
+  cin >> numero;
+
+  if (numero % 2 == 0) {
+     cout << "El número que ingreso es par." << endl;
+  } else {
+     cout << "El número que ingreso es impar." << endl;
+  }
+
+     return 0;
 }
