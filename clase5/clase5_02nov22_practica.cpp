@@ -32,8 +32,12 @@ int main() {
                 } else if (usuario == usuarioD){
                     //acciones si la contrasenia es incorrecta
                     cout << "\nContrasenia incorrecta :(" << endl;
-                } else {
+                } else if (contrasenia == contraD) {
+                    //acciones si el usuario es incorrecto
                     cout << "\nUsuario incorrecto :(" << endl;
+                } else {
+                    //acciones si el usuario y la contrasenia son incorrectos
+                    cout << "\nEl usuario y la contrasenia son incorrectos :(" << endl;
                 }
             }while(usuario != usuarioD || contrasenia != contraD);
 
